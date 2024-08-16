@@ -1,0 +1,284 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+}
+
+/* Header Page */
+
+.header{
+  border: 2px solid white;
+  box-shadow: 2px 2px 20px black;
+  padding: 10px;
+}
+.title h1{
+  text-align: center;
+  font-size: 35px;
+}
+.title span{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
+}
+.menu{
+  text-align: center;
+  margin-top: 40px;
+}
+.menu li{
+  display: inline;
+  padding: 20px;
+}
+.menu li a{
+  border-top: 3px solid black;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.menu li a:hover{
+  color: rgb(199, 59, 59);
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+}
+.search1{
+  display: flex;
+}
+.search1 li{
+  display: inline;
+}
+.search1 li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+}
+.search input{
+  padding: 7px;
+  margin: 10px 0 0 10px;
+  height: 20px;
+  width: 17rem;
+  border-color: rgb(231, 231, 231);
+}
+.search input:focus{
+  border-color: black;
+}
+.search button{
+  padding: 9px;
+  margin: 0 7px;
+  font-size: 17px;
+  width: 10rem;
+  border-radius: 7px;
+}
+.btn1{
+  background-color: rgb(199, 59, 59);
+  color: white;
+  transition: .7s;
+  border-color: rgb(199, 59, 59);;
+}
+.btn1:hover{
+  color: rgb(199, 59, 59);
+  background-color: white;
+}
+.btn2{
+  border-color:  rgb(199, 59, 59);
+  color:  rgb(199, 59, 59);
+  transition:.7s;
+}
+.btn2:hover{
+  color: white;
+  background-color: rgb(199, 59, 59);
+  border-color: rgb(199, 59, 59);
+}
+.btn a{
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+  padding-right: 10px;
+  transition: 0.5s;
+}
+.btn a:hover{
+  text-decoration: underline;
+  
+}
+
+/*Content Page*/
+.content1{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.content1 h2{
+  color:  rgb(199, 59, 59);
+  font-size: 33px;
+  font-weight: 800;
+}
+.center h2{
+  font-size: 20px;
+  padding-top: 10px;
+}
+.center small{
+  border: 1px solid  rgb(199, 59, 59);
+  background-color:  rgb(199, 59, 59);
+  border-radius: 100px;
+  padding: 0 9px;
+  margin: 10px;
+}
+.blink {
+  animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.content1 h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+.content1 h1{
+  font-size: 39px;
+  font-weight: 800;
+}
+.content1 p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.center img{
+  width: 35rem;
+  height: 27rem;
+}
+.right img{
+  width: 20rem;
+  height: 15rem;
+}
+.content1 h1:hover{
+  text-decoration: underline;
+}
+.content1 h2:hover{
+  text-decoration: underline;
+}
+.content1 h3:hover{
+  text-decoration: underline;
+}
+.content1 p:hover{
+  text-decoration: underline;
+}
+.content2{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding-bottom: 140px;
+}
+.content2 h2{
+  color: white;
+  font-size: 25px;
+}
+.content2 small{
+  border: 1px solid  rgb(199, 59, 59); 
+  background-color:  rgb(199, 59, 59);
+  border-radius: 100px;
+  padding: 5px;
+  margin-right: 7px;
+  font-weight: 400;
+}
+.video1{
+  padding: 50px;
+}
+.video2{
+  padding: 30px;
+  padding-top: 100px;
+}
+.content2 h3{
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 30rem;
+}
+.content2 span{
+  padding:7px;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+}
+
+
+/*Footer Page*/
+
+.footer{
+  border: 2px solid white;
+  box-shadow: 2px 2px 20px black;
+  padding: 10px;
+  background-color: rgb(221, 221, 221);
+}
+.footer1{
+  display: flex;
+  justify-content: space-between;
+}
+img{
+  margin: 10px;
+  width: 8rem;
+  height: 2.5rem;
+}
+.footer2{
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+.footer2 a{
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer2 a:hover{
+  text-decoration: underline;
+}
+.bold a{
+  font-weight: 900;
+  font-size: 19px;
+  padding: 15px 0;
+}
+.underline a{
+  border-top: 3px solid black;
+  padding-top: 10px;
+}
+.icons{
+  padding: 0 14px;
+}
+.icons a{
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding: 13px 5px;
+  display: inline;
+}
+.footer3{
+  padding: 15px 15px 0;
+}
+.footer3 a{
+  text-decoration: none;
+  color: black;
+  font-size: 14.5px;
+  padding: 2px;
+}
+.footer3 p{
+  display: inline;
+}
+.footer4 p{
+  padding: 0 17.7px;
+  font-size: 16px;
+}
