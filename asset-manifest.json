@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/New-Page-using-Reactjs/static/css/main.ebc99696.css",
+    "main.js": "/New-Page-using-Reactjs/static/js/main.2c8a1d20.js",
+    "static/media/vid1.mp4": "/New-Page-using-Reactjs/static/media/vid1.1969b0d1715186e34660.mp4",
+    "static/media/vid4.mp4": "/New-Page-using-Reactjs/static/media/vid4.dd9194f5bd28215e404c.mp4",
+    "static/media/vid2.mp4": "/New-Page-using-Reactjs/static/media/vid2.bc3e1db7cc97067ded2a.mp4",
+    "static/media/vid3.mp4": "/New-Page-using-Reactjs/static/media/vid3.b03ac7b7cea975eb582b.mp4",
+    "static/media/Img2.jpg": "/New-Page-using-Reactjs/static/media/Img2.7c166ab191fb497601fe.jpg",
+    "static/media/Img1.jpg": "/New-Page-using-Reactjs/static/media/Img1.22898a28c7d2e557055b.jpg",
+    "static/media/Img3.jpg": "/New-Page-using-Reactjs/static/media/Img3.876b787a95efcf08f081.jpg",
+    "index.html": "/New-Page-using-Reactjs/index.html",
+    "main.ebc99696.css.map": "/New-Page-using-Reactjs/static/css/main.ebc99696.css.map",
+    "main.2c8a1d20.js.map": "/New-Page-using-Reactjs/static/js/main.2c8a1d20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebc99696.css",
+    "static/js/main.2c8a1d20.js"
+  ]
+}
